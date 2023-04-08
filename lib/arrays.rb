@@ -51,7 +51,7 @@ while count == 0
         count = option.to_i
     end
 
-    if count == "1"
+    if count == 1
         puts "saindo.."
     end
 end
