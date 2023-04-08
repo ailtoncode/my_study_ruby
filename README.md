@@ -1,2 +1,3 @@
-# my_study_ruby
+# MyStudyRuby
+
 Estudos de Ruby
