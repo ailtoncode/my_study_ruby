@@ -18,6 +18,14 @@ if list.include? "Ailton"
 end
 
 #find_index
-
 index = list.find_index("Silva")
 puts "index: #{index}"
+
+#unshift
+list = [1, 2, 3, 4, 5]
+list.unshift(7)
+p list
+
+list.insert(0, 6)
+list.insert(5, 9)
+p list
