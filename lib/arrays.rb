@@ -29,3 +29,19 @@ p list
 list.insert(0, 6)
 list.insert(5, 9)
 p list
+
+list.pop
+p list
+
+#uniq and uniq!
+list.push(8)
+list.push(8)
+list.push(8)
+list.push(14)
+list.push(10)
+list.push(10)
+p list
+p list.uniq
+p list
+list.uniq!
+p list
