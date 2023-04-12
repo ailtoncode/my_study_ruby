@@ -45,3 +45,9 @@ p list.uniq
 p list
 list.uniq!
 p list
+puts "---------------------------------"
+
+#deletar elemento por índice
+
+list.delete_at(0)
+p list
