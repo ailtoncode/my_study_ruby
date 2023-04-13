@@ -51,3 +51,8 @@ puts "---------------------------------"
 
 list.delete_at(0)
 p list
+
+#array map | usado para criar um novo array com valores modificados
+
+list = list.map { |a| a + 1 }
+p list
