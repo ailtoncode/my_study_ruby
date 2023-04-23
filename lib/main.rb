@@ -1,6 +1,7 @@
-require './animal'
-animal = Animal.new("SuperAnimal", 3, "Asdff")
+require './cachorro'
+cachorro = Cachorro.new("UmNome", 3, "pug")
 
-puts animal.nome
-puts animal.idade
-puts animal.especie
+puts cachorro.nome
+puts cachorro.idade
+puts cachorro.especie
+cachorro.latir
