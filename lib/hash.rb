@@ -22,3 +22,12 @@ puts '--------------------------------------'
 p h.keys
 p h.values
 puts h.empty?
+puts '--------------------------------------'
+
+numbers = { a: 10, b:302, c: 20, d: 25, e: 15 }
+n = 0
+numbers.each do |key, value|
+    n = value if value > n
+end
+
+puts n
